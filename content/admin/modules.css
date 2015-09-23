@@ -1,0 +1,268 @@
+.lists {
+	position:           fixed;
+	left:               240px;
+	top:                145px;
+	width:              720px;
+	height:             512px;
+	background-color: #d1e5e4;
+}
+
+.lists_title {
+	position:        absolute;
+	top:                  0px;
+	left:                 0px;
+	width:              720px;
+	height:              50px;
+	background-color: #53817e;
+	text-align:        center;
+	font-size:           18px;
+	color:              white;
+}
+
+.lists_table {
+	border: 6px solid #406965;
+	position:        absolute;
+	top:                 50px;
+	left:                 0px;
+	width:              100%;
+	height:             462px;
+}
+
+.draggable {
+	cursor:              move;
+}
+
+.annuleer {
+	position:        absolute;
+	left:               445px;
+	top:                419px;
+	width:              125px;
+	height:              26px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.opslaan {
+	position:        absolute;
+	left:               579px;
+	top:                419px;
+	width:              125px;
+	height:              26px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}
+
+.blur_box {
+	position:           fixed;
+	left:               240px;
+	top:                145px;
+	width:              720px;
+	height:             512px;
+	background-color: #e0e7e1;
+	opacity:              0.7;
+	filter: alpha(opacity=70);
+	visibility:        hidden;
+}
+.name_box {
+	position:        absolute;
+	left:               233px;
+	top:                  0px;
+	width:              694px;
+	height:             483px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+	visibility:        hidden;
+}
+.name_field {
+	position:        absolute;
+	left:                11px;
+	top:                 34px;
+	width:              663px;
+	height:              30px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           18px;
+	visibility:        hidden;
+}
+.purpose_field {
+	position:        absolute;
+	left:                11px;
+	top:                 94px;
+	width:              663px;
+	height:              50px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:        hidden;
+}
+.instruction_field {
+	position:        absolute;
+	left:                11px;
+	top:                181px;
+	width:              663px;
+	height:              50px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:        hidden;
+}
+.remark_field {
+	position:        absolute;
+	left:                11px;
+	top:                268px;
+	width:              663px;
+	height:              50px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:        hidden;
+}
+.reference_field {
+	position:        absolute;
+	left:                11px;
+	top:                355px;
+	width:              663px;
+	height:              50px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:        hidden;
+}
+.name_cancel {
+	position:        absolute;
+	left:               244px;
+	top:                437px;
+	width:              139px;
+	height:              33px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}
+.name_save {
+	position:        absolute;
+	left:               775px;
+	top:                437px;
+	width:              139px;
+	height:              33px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}
+
+#edit-module-list-sortable1, #edit-module-list-sortable2 {
+	position:        absolute;
+	top:                  4px;
+	width:              340px;
+	height:             400px;
+	margin-left:          6px;
+	margin-top:           6px;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+	float:               left;
+}
+
+/*
+#edit-module-list-sortable1 {
+	left:              -320px;
+}
+
+#edit-module-list-sortable2 {
+	margin-right:        10px;
+}
+*/
+
+#sortable1, #sortable2 { 
+	list-style-type:     none;
+	/* border-radius:  8px; */
+	margin-top:           0px;
+}
+
+#sortable1 {
+	background:       #d1e5e4;
+	padding:              7px;
+	/* margin-top:    10px; */
+}
+
+#sortable2 {
+	background:       #d1e5e4;
+	padding:              7px;
+}
+
+#sortable1 li, #sortable2 li {
+	padding:         7px 15px;
+	font-size:          1.0em;
+	width:              277px;
+	margin:           5px 0px;
+}
+
+#sortable1 li {
+	position:        relative;
+	background:       #fec424;
+	color:            #004e41;
+	border-bottom: 1px solid #e6e7e7;
+}
+
+#sortable1 li:last-child {
+	border-bottom:       none;
+}
+
+#sortable2 li {
+	background:       #004d43;
+	color:              white;
+	border-bottom: 1px solid #e6e7e7;
+	/* border-radius:  8px; */
+}
+
+#sortable1 li:last-child, #sortable2 li:last-child {
+	margin-bottom:        0px;
+}
+
+#sortable1 li:first-child, #sortable2 li:first-child {
+	margin-top:           0px;
+}
+
+/*
+::-webkit-scrollbar {
+	/* width:         24px; */
+	background:       #f8fcfd;
+}
+
+::-webkit-scrollbar-thumb {
+	background:       #004d43;
+	-webkit-border-radius: .8ex;
+	/* -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+}
+
+::-webkit-scrollbar-corner {
+	background:            #000;
+}
+*/

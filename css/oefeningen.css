@@ -1,0 +1,151 @@
+.lists {
+	position:           fixed;
+	left:               240px;
+	top:                145px;
+	width:              720px;
+	height:             512px;
+	background-color: #d1e5e4;
+}
+
+.lists_title {
+	position:        absolute;
+	top:                  0px;
+	left:                 0px;
+	width:              720px;
+	height:              50px;
+	background-color: #53817e;
+	text-align:        center;
+	font-size:           18px;
+	color:              white;
+}
+
+.lists_table {
+	border: 6px solid #406965;
+	position:        absolute;
+	top:                 50px;
+	left:                 0px;
+	width:              100%;
+	height:             462px;
+}
+
+.draggable {
+	cursor:              move;
+}
+
+.annuleer {
+	position:        absolute;
+	left:               445px;
+	top:                419px;
+	width:              125px;
+	height:              26px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.opslaan {
+	position:        absolute;
+	left:               579px;
+	top:                419px;
+	width:              125px;
+	height:              26px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}
+
+.blur_box {
+	position:           fixed;
+	left:               240px;
+	top:                145px;
+	width:              720px;
+	height:             512px;
+	background-color: #e0e7e1;
+	opacity:              0.7;
+	filter: alpha(opacity=70);
+	visibility:        hidden;
+}
+
+.course_item {
+	position:        relative;
+	top:                 20px;
+	left:                 0px;
+	width:              240px;
+	height:              36px;
+	background-color: #fec424;
+	color:            #014d43;
+	font-size:           18px;
+  font-weight:         bold;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.course_item_active {
+	position:        relative;
+	top:                  20px;
+	left:                 0px;
+	width:              240px;
+	height:              36px;
+	background-color: #014d43;
+	color:            #ffffff;
+	font-size:           18px;
+  font-weight:         bold;
+	text-align:        center;
+}
+
+.course_head {
+	color:            #014d43;
+	font-size:           16px;
+  font-weight:         bold;
+	text-align:          left;
+}
+
+.scroll_right {
+	height:             540px;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+}
+
+.audio_item {
+	position:        relative;
+	top:                  0px;
+	left:                14px;
+	width:              662px;
+	height:              20px;
+	padding-left:         4px;
+	padding-top:          2px;
+	margin-top:           3px;
+	background-color: #fec424;
+	color:            #014d43;
+	font-size:           14px;
+  font-weight:         bold;
+	text-align:          left;
+	cursor:           pointer;
+}
+
+.audio_popup {
+	position:           fixed;
+	top:                153px;
+	left:               248px;
+	width:              713px;
+	height:             546px;
+	background-color: #3f6965;
+	text-align:          left;
+	z-index:               20;
+	visibility:        hidden;
+}
+
+::-webkit-scrollbar {
+	/* width:         24px; */
+	background:       #f8fcfd;
+}
+
+::-webkit-scrollbar-thumb {
+	/* background:       #004d43; */
+	background:       #014d43;
+	-webkit-border-radius: .8ex;
+	/* -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+}

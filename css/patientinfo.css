@@ -1,0 +1,294 @@
+.patientinfo {
+	position:        absolute;
+	left:                 2px;
+	top:                  2px;
+	width:              690px;
+	height:              29px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+}
+
+.patientinfotext {
+	position:        relative;
+	left:                 5px;
+	top:                  4px;
+  font-weight:         bold;
+}
+
+.patientinstitutetext {
+	position:        absolute;
+	right:                5px;
+	top:                  4px;
+	cursor:           pointer;
+}
+
+.patient_minmax {
+	position:        absolute;
+	left:                 2px;
+	top:                 31px;
+	width:              690px;
+	height:              31px;
+	background-color: #91aba8;
+	color:              white;
+	text-align:          left;
+}
+
+.patient_minmaxtext {
+	position:        relative;
+	left:                 5px;
+	top:                  6px;
+}
+
+.courses_patient {
+	position:        absolute;
+	left:                 2px;
+	top:                 64px;
+	width:              344px;
+	height:              29px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+}
+
+.courses_patienttext {
+	position:        relative;
+	left:                 5px;
+	top:                  4px;
+}
+
+.add_course {
+	position:        absolute;
+	right:                0px;
+	top:                  0px;
+	width:              170px;
+	height:              29px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+}
+
+.add_coursetext {
+	position:        relative;
+	left:                 0px;
+	top:                  4px;
+	cursor:           pointer;
+}
+
+.courses_logopedist {
+	position:        relative;
+	left:               348px;
+	top:                 64px;
+	width:              344px;
+	height:              29px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+}
+
+.courses_logopedisttext {
+	position:        relative;
+	left:                 5px;
+	top:                  4px;
+}
+
+.courseslist_patient {
+	position:        relative;
+	left:                 2px;
+	top:                 64px;
+	width:              344px;
+	height:             215px;
+	background-color: #689995;
+	color:              white;
+	text-align:          left;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+}
+
+.courseslist_patienttext {
+	position:        relative;
+	left:                 5px;
+	top:                  3px;
+	background-color: #689995;
+}
+
+.courseslist_logopedist {
+	position:        absolute;
+	left:               348px;
+	top:                 93px;
+	width:              344px;
+	height:             215px;
+	background-color: #689995;
+	color:              white;
+	text-align:          left;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+}
+
+.courseslist_logopedisttext {
+	position:        relative;
+	left:                 5px;
+	top:                  1px;
+}
+
+.audio {
+	position:        relative;
+	left:                 2px;
+	top:                 66px;
+	width:              344px;
+	height:              29px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+}
+
+.audiotext {
+	position:        relative;
+	left:                 5px;
+	top:                  4px;
+}
+
+.audio_list {
+	position:        absolute;
+	top:                339px;
+	left:                 2px;
+	width:              344px;
+	height:             191px;
+	background-color: #91aba8;
+	margin-left:          0px;
+	margin-top:           0px;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+	float:               left;
+}
+
+.audio_listtext {
+	position:        relative;
+	left:                 5px;
+	top:                  3px;
+}
+
+.audio_seen {
+	position:        absolute;
+	left:               348px;
+	top:                310px;
+	width:              344px;
+	height:              29px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+}
+
+.audio_seentext {
+	position:        relative;
+	left:                 5px;
+	top:                  4px;
+}
+
+.audioseen_list {
+	position:        absolute;
+	top:                339px;
+	left:               348px;
+	width:              344px;
+	height:             191px;
+	background-color: #91aba8;
+	margin-left:          0px;
+	margin-top:           0px;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+	float:               left;
+}
+
+.audioseen_listtext {
+	position:        relative;
+	left:                 5px;
+	top:                  3px;
+}
+
+.draggable {
+	cursor:              move;
+	left:                -4px;
+}
+
+#edit-module-list-sortable1, #edit-module-list-sortable2 {
+	position:        absolute;
+	top:                  0px;
+	width:              344px;
+	min-height:         215px;
+	margin-left:          0px;
+	margin-top:           0px;
+	background-color: #d1e5e4;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+	float:               left;
+}
+
+/*
+#edit-module-list-sortable1 {
+	unicode-bidi:bidi-override;
+	direction: rtl;
+}
+
+#edit-module-list-sortable2 {
+	margin-right:        10px;
+}
+*/
+
+#sortable1, #sortable2 { 
+	list-style-type:     none;
+	/* border-radius:  8px; */
+	margin-top:           0px;
+}
+
+#sortable1 {
+	background:       #d1e5e4;
+	padding: 4px 4px 169px 4px;
+	/* margin-top:    10px; */
+}
+
+#sortable2 {
+	background:       #d1e5e4;
+	padding:              4px;
+}
+
+#sortable1 li, #sortable2 li {
+	padding:  0px 3px 0px 3px;
+	font-size:          1.0em;
+	width:              322px;
+	margin:           1px 0px;
+}
+
+#sortable1 li {
+	position:        relative;
+	background:       #689995;
+	color:              white;
+}
+
+#sortable1 li:last-child {
+	border-bottom:       none;
+}
+
+#sortable2 li {
+	position:        relative;
+	background:       #689995;
+	color:              white;
+}
+
+#sortable1 li:last-child, #sortable2 li:last-child {
+	margin-bottom:        0px;
+}
+
+#sortable1 li:first-child, #sortable2 li:first-child {
+	margin-top:          -3px;
+}
+
+::-webkit-scrollbar {
+	width:               18px;
+	background:       #f8fcfd;
+}
+	
+::-webkit-scrollbar-thumb {
+	background:       #3f6965;
+	-webkit-border-radius: .8ex;
+	/* -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75); */
+}

@@ -1,0 +1,120 @@
+.name_box {
+	position:        absolute;
+	left:               233px;
+	top:                  0px;
+	width:              694px;
+	height:             532px;
+	background-color: #53817e;
+	color:              white;
+	text-align:          left;
+	visibility:       visible;
+}
+.name_field {
+	position:        absolute;
+	left:                11px;
+	top:                 34px;
+	width:              163px;
+	height:              30px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           18px;
+	visibility:       visible;
+}
+.pw1_field {
+	position:        absolute;
+	left:                11px;
+	top:                 94px;
+	width:              163px;
+	height:              30px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           18px;
+	visibility:       visible;
+}
+.pw2_field {
+	position:        absolute;
+	left:                11px;
+	top:                154px;
+	width:              163px;
+	height:              30px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           18px;
+	visibility:       visible;
+}
+.institute_field {
+	position:        absolute;
+	left:                11px;
+	top:                214px;
+	height:              25px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:       visible;
+}
+.patientid_field {
+	position:        absolute;
+	left:                11px;
+	top:                274px;
+	width:              163px;
+	height:              50px;
+	background-color: #bfd2d0;
+	color:            #004d43;
+	font-family: "trebuc", Arial, Sans-Serif;
+	text-align:          left;
+	border: 0px none  #cccccc;
+	padding-left:         6px;
+	font-size:           16px;
+	visibility:       visible;
+}
+
+.name_cancel {
+	position:        absolute;
+	left:               244px;
+	top:                488px;
+	width:              139px;
+	height:              33px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:       visible;
+}
+.name_save {
+	position:        absolute;
+	left:               775px;
+	top:                488px;
+	width:              139px;
+	height:              33px;
+	background-color: #004d43;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}
+
+.name_remove {
+	position:        absolute;
+	left:               244px;
+	top:                334px;
+	width:              139px;
+	height:              33px;
+	background-color: #e8941a;
+	color:              white;
+	text-align:        center;
+	cursor:           pointer;
+	visibility:        hidden;
+}

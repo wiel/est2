@@ -1,0 +1,563 @@
+body{
+	background-color: #bfd2d0;
+	font-family:     "trebuc", Arial, Sans-Serif;
+	/*
+	height:             768px;
+	width:              960px;
+	overflow:          scroll;
+	*/
+}
+
+.blur_area1 {
+	/*
+	-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  */
+}
+
+.blur_area2 {
+}
+
+.lang{
+	position: absolute;
+	left: 964px;
+	height: 1000px;
+}
+
+input[type=submit] {
+	font-family: "trebuc", Arial, Sans-Serif;
+	font-size:           18px;
+	background-color: #004d43;
+	color:              white;
+	border:              none;
+	height:              30px;
+	cursor:           pointer;
+	position:        relative;
+	top:                  1px;
+}
+
+input[type=text], input[type=password] {
+	font-family: "trebuc", Arial, Sans-Serif;
+	font-size:           16px;
+	height:              24px;
+}
+
+select {
+	font-family: "trebuc", Arial, Sans-Serif;
+	font-size:           16px;
+	height:              30px;
+}
+
+/* *************************** head *************************** */
+.logo_area {
+	position:           fixed;
+	top:                  0px;
+	left:                 0px;
+	height:             112px;
+	width:              960px;
+	background-color: #e8941a;
+}
+
+.logo {
+	position:        relative;
+	text-align:        center;
+	left:                30px;
+	width:              170px;
+	height:             150px;
+	/* background-color: #edad4d; */
+}
+
+.logo img {
+	margin:              15px;
+	height:              84px;
+}
+
+.titel {
+	position:        absolute;
+	right:               12px;
+	top:                 56px;
+	font-family:   "trebucit", Arial, Sans-Serif;
+	font-weight:       normal;
+	color:              white;
+	font-size:           20px;
+	visibility:        hidden;
+}
+
+.logoff {
+	position:        absolute;
+	right:               12px;
+	top:                 80px;
+	font-family:   "trebucit", Arial, Sans-Serif;
+	font-weight:       normal;
+	color:            #004d43;
+	font-size:           20px;
+	visibility:        hidden;
+	cursor:           pointer;
+}
+
+/* *************************** menu *************************** */
+.menu {
+	position:           fixed;
+	top:                112px;
+	left:                 0px;
+	height:              30px;
+	width:              960px;
+	background-color: #d1e5e5;
+}
+
+.menu .item1 {
+	position:           fixed;
+	top:                112px;
+	left:                 0px;
+	height:              30px;
+	width:              240px;
+	color:             #91b7b7;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.menu .item2 {
+	position:           fixed;
+	top:                112px;
+	left:               240px;
+	height:              30px;
+	width:              240px;
+	color:             #91b7b7;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.menu .item3 {
+	position:           fixed;
+	top:                112px;
+	left:               480px;
+	height:              30px;
+	width:              240px;
+	color:             #91b7b7;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.menu .item4 {
+	position:           fixed;
+	top:                112px;
+	left:               720px;
+	height:              30px;
+	width:              240px;
+	color:             #91b7b7;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.menu_item_text1 {
+	position:        relative;
+	font-size:           20px;
+	top:                  4px;
+}
+
+.menu_item_text2 {
+	position:        relative;
+	font-size:           20px;
+	top:                  4px;
+}
+
+.menu_item_text3 {
+	position:        relative;
+	font-size:           20px;
+	top:                  4px;
+}
+
+.menu_item_text4 {
+	position:        relative;
+	font-size:           20px;
+	top:                  4px;
+}
+
+.menu_line {
+	position:           fixed;
+	top:                142px;
+	left:                 0px;
+	height:              3px;
+	width:              960px;
+	background-color: #91b7b7;
+}
+
+/* ************************** content ************************* */
+.content {
+	position:           fixed;
+	top:                160px;
+	left:                20px;
+	width:              940px;
+	background-color: #bfd2d0;
+}
+
+.vu {
+	position:           fixed;
+	top:                183px;
+	left :              900px;
+	width:               26px;
+	height:             106px;
+	background-color: #000000;
+	text-align:        center;
+}
+
+	/***** video *****/
+.video {
+	position:        absolute;
+	top:                -14px;
+	left:                10px;
+	width:              640px;
+	height:             360px;
+	background-color: #416c7f;
+	text-align:        center;
+	font-size:           40px;
+	color:              white;
+}
+.video_text {
+	position:        relative;
+	top:                  45%;
+	text-align:        center;
+}
+
+	/***** login buttons *****/
+.login_button_logopedist {
+	position:        absolute;
+	top:                -14px;
+	left:               670px;
+	width:              270px;
+	height:             170px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	font-size:           40px;
+	cursor:           pointer;
+}
+.logopedist_title {
+	position:        absolute;
+	top:                  0px;
+	left:                 0px;
+	width:              270px;
+	height:              40px;
+	background-color: #004d43;
+	text-align:        center;
+	font-size:           18px;
+	color:              white;
+}
+.logopedist_title_text {
+	position:        relative;
+	top:                  20%;
+	text-align:        center;
+}
+.logopedist_img {
+	position:        relative;
+	top:                 40px;
+	left:                 0px;
+	width:              270px;
+	height:             130px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	background-image:    url("/images/logopedist.png");
+	background-repeat:   no-repeat;
+	background-position: center; 
+}
+
+.login_button_patient {
+	position:        absolute;
+	top:                176px;
+	left:               670px;
+	width:              270px;
+	height:             170px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	font-size:           40px;
+	cursor:           pointer;
+}
+.patient_title {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              270px;
+	height:              40px;
+	background-color: #004d43;
+	text-align:        center;
+	font-size:           18px;
+	color:              white;
+	z-index:               10;
+}
+.patient_title_text {
+	position:        relative;
+	top:                  20%;
+	text-align:        center;
+}
+.patient_img {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              270px;
+	height:             130px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	background-image:    url("/images/patient.png");
+	background-repeat:   no-repeat;
+	background-position: center; 
+	z-index:               10;
+}
+
+.leftcolumn {
+	position:           fixed;
+	top:                145px;
+	left:                 0px;
+	width:              240px;
+	height:              100%;
+	color:            #e8941a;
+	background-color: #fff2d2;
+	text-align:         center;
+}
+
+.leftcolumnhead {
+	position:        relative;
+	top:                  10px;
+	left:                 0px;
+}
+
+.goal_item {
+	position:        relative;
+	top:                 20px;
+	left:                 0px;
+	width:              240px;
+	height:              36px;
+	background-color: #fec424;
+	color:            #014d43;
+	font-size:           18px;
+  font-weight:         bold;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.goal_item_active {
+	position:        relative;
+	top:                  20px;
+	left:                 0px;
+	width:              240px;
+	height:              36px;
+	background-color: #014d43;
+	color:            #ffffff;
+	font-size:           18px;
+  font-weight:         bold;
+	text-align:        center;
+}
+
+.inner_item {
+	position:        relative;
+	top:                  1px;
+	left:                 2px;
+	width:              236px;
+	height:              34px;
+	background-color: #f5e880;
+	color:            #014d43;
+	font-size:           18px;
+  font-weight:         bold;
+	text-align:        center;
+	cursor:           pointer;
+}
+
+.right3columns {
+	position:           fixed;
+	top:                155px;
+	left:               250px;
+	width:              710px;
+	height:              100%;
+}
+
+/* ************************* login popup ************************ */
+.login_popup {
+	position:           fixed;
+	top:                 30px;
+	left:               202px;
+	width:              556px;
+	height:             510px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	z-index:               20;
+	visibility:        hidden;
+}
+.login_title {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              556px;
+	height:              50px;
+	background-color: #004d43;
+	text-align:        center;
+	font-size:           20px;
+	color:              white;
+	z-index:               10;
+}
+.login_title_text {
+	position:        relative;
+	top:                  25%;
+	text-align:        center;
+}
+.close_button {
+	position:       absolute;
+	top:                 10px;
+	right:               10px;
+	width:               19px;
+	height:              19px;
+	background-image:    url("/images/close.png");
+	background-repeat:   no-repeat;
+	background-position: center; 
+	cursor:           pointer;
+}
+.login_form {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              556px;
+	height:             460px;
+	background-color: #ecf4f6;
+	text-align:        center;
+}
+
+
+/* *************************** bottom ************************* */
+.info {
+	position:           fixed;
+	top:                525px;
+	left:                30px;
+	width:              180px;
+	height:              60px;
+	background-color: #ecf4f6;
+}
+.info_title {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              120px;
+	height:              60px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	font-size:           18px;
+	color:            #004d43;
+	z-index:               10;
+}
+.info_title_text {
+	position:        relative;
+	top:                  32%;
+	text-align:        center;
+}
+.info_img {
+	position:        absolute;
+	top:                  0px;
+	left:               120px;
+	width:               60px;
+	height:              60px;
+	background-color: #e8941a;
+	text-align:        center;
+	background-image:    url("/images/info.png");
+	background-repeat:   no-repeat;
+	background-position: center; 
+	z-index:               10;
+}
+
+.contact {
+	position:           fixed;
+	top:                525px;
+	left:               490px;
+	width:              180px;
+	height:              60px;
+	background-color: #ecf4f6;
+}
+.contact_title {
+	position:        relative;
+	top:                  0px;
+	left:                 0px;
+	width:              120px;
+	height:              60px;
+	background-color: #ecf4f6;
+	text-align:        center;
+	font-size:           18px;
+	color:            #004d43;
+	z-index:               10;
+}
+.contact_title_text {
+	position:        relative;
+	top:                  32%;
+	text-align:        center;
+}
+.contact_img {
+	position:        absolute;
+	top:                  0px;
+	left:               120px;
+	width:               60px;
+	height:              60px;
+	background-color: #e8941a;
+	text-align:        center;
+	background-image:    url("/images/contact.png");
+	background-repeat:   no-repeat;
+	background-position: center; 
+	z-index:               10;
+}
+
+.est {
+	position:           fixed;
+	top:                535px;
+	left:               768px;
+	width:              180px;
+	font-size:           16px;
+	text-align:         right;
+}
+
+/* *************************** tables ************************* */
+table {
+	border-collapse: collapse;
+}
+
+table, td, th {
+	border: 0px solid #91b7b7;
+	vertical-align:       top;
+}
+
+th {
+	text-align:          left;
+}
+
+.scrollable {
+	height:             400px;
+	overflow-x:        hidden;
+	overflow-y:        scroll;
+	background-color: #91aba8;
+}
+
+
+/* *************************** fonts ************************** */
+@font-face {
+    font-family: 'trebuc';
+    src:          url('/fonts/trebuchet/trebuc.ttf') format('truetype');
+    font-weight:  normal;
+    font-style:   normal;
+}
+
+@font-face {
+    font-family: 'trebucbd';
+    src:          url('/fonts/trebuchet/trebucbd.ttf') format('truetype');
+    font-weight:  normal;
+    font-style:   normal;
+}
+
+@font-face {
+    font-family: 'trebucbi';
+    src:          url('/fonts/trebuchet/trebucbi.ttf') format('truetype');
+    font-weight:  normal;
+    font-style:   normal;
+}
+
+@font-face {
+    font-family: 'trebucit';
+    src:          url('/fonts/trebuchet/trebucit.ttf') format('truetype');
+    font-weight:  normal;
+    font-style:   normal;
+}
+
