@@ -1,5 +1,6 @@
 <?php
 	require_once ("../include/functions.php");
+	/* test */
 
 	$user = urldecode ($_REQUEST ["user"]);
 	$role = $_REQUEST ["role"];
