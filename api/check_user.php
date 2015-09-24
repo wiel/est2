@@ -58,7 +58,6 @@
 		$st->execute($ex);
 		$rw = $st->fetch(PDO::FETCH_ASSOC);
 		if ($role == $rw ["role"]){
-			// file_put_contents ($logfile, "role: req: '$role', db: '{$rw ["role"]}'\n", FILE_APPEND);
 			$result->check = "ok";
 		}
 	}
